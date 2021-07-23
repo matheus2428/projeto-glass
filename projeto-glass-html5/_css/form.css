@@ -1,0 +1,58 @@
+@charset "UTF-8";
+form#form h1{
+    color: #606060;
+}
+div#userId {
+    margin: auto;
+    width: 400px;
+    border-radius: 20px;
+    padding: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);  
+    background: url("../_imagens/icone-contato.png") no-repeat right bottom;
+    margin-bottom: 15px;
+}
+div#sexbox{
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+}
+div#sexbox h1{
+    text-indent: 50px;
+    font-size: 14pt;
+}
+div#userAdress {
+    margin: auto;
+    width: 400px;
+    border-radius: 20px;
+    padding: 5px; 
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    background: url("../_imagens/icone-endereco.png")no-repeat right;
+}
+div#userMsg{
+    margin: auto;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541); 
+    background: url("../_imagens/icone-mensagem.png") no-repeat right bottom;
+}
+div#userMsg textarea#tmsg {
+    opacity: 0.7;
+}
+div#quero {
+    margin: auto;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541); 
+    background: url('../_imagens/icone-pagamento.png')no-repeat right bottom;
+}
+input#enviar{
+    display: block;
+    margin: auto;
+}

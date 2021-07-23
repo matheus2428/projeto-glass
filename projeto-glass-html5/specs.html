@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/specs.css">
+    <title>Tudo sobre o Google Glass</title>
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <nav id="menu">
+                <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="foto_google_glass">
+                <h1>Menu Principal</h1>
+                <ul onmouseout="mudaImg('_imagens/especificacoes.png')">
+                    <li onmousemove="mudaImg('_imagens/home.png')"><a href="index.html"> Home</a></li>
+                    <li onmousemove="mudaImg('_imagens/especificacoes.png')"><a href="specs.html"> Especificações</a></li>
+                    <li onmousemove="mudaImg('_imagens/fotos.png')"><a href="fotos.html"> Fotos</a></li>
+                    <li onmousemove="mudaImg('_imagens/multimidia.png')" ><a href="multimidia.html"> Multimídia</a></li>
+                    <li onmousemove="mudaImg('_imagens/contato.png')"><a href="fale-conosco.html"> Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+<section id="corpo-full">
+    <article id="artigo">
+        <header id="cabecalho-artigo">
+            <hgroup id="grupotit">
+                <h3>Glass > Especificações</h3>
+                <h1>Raio-X no Google Glass</h1>
+                <h2>por Gustavo Guanabara</h2>
+                <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+        </header>
+    <p>
+        Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+    </p>
+    <section id="conteudo">
+        <img src="_imagens/glass-esquema-marcado.jpg" alt="" usemap="#meumapa">
+        <map id="mapa" name="meumapa">
+            <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"alt="">
+            <area shape="circle" coords="159,244,12" href="google-glass.html#camera" target="janela" alt="">
+            <area shape="circle" coords="76,52,10" href="google-glass.html#bateria" target="janela" alt="">
+            <area shape="poly" coords="28,149,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela" alt="">
+        </map>
+        <iframe src="google-glass.html" name="janela" id="framespec" scrolling="no" frameborder="0"></iframe>
+    </section>
+    </article>
+</section>
+<footer>
+    <p>
+        Curso em Vídeo&copy;2021 by Matheus Durão <br>
+        <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank"><img src="_imagens/facebook.png" alt=""></a><a href="https://twitter.com/login?lang=pt" target="_blank"><img src="_imagens/twitter.png" alt=""></a>
+    </p>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
